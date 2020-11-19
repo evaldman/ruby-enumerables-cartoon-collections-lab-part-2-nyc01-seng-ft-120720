@@ -30,5 +30,5 @@ def find_valid_calls(planeteer_calls)
   
   planeteer_calls.find do |mixed_calls|
     valid_calls.include? mixed_calls
-    
+  end
 end
